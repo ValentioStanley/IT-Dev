@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fontMedium;
+    src: url(../assets/Open-Sauce-Sans/OpenSauceSans-Regular.ttf);
+}
+
+body{
+    font-family: fontMedium;
+}
+
+/* NavBar  */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0rem 5rem 0rem; */
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.brand img{
+    margin-right: 23rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+nav a:link { 
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:visited { 
+    text-decoration: none;
+    color: #000000   ;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+    color: #19A89D;
+}
+
+nav a:active { 
+    text-decoration: underline;
+    color: #19A89D;
+}
+
+.rumah button{
+    width: 150px;
+    height: 43px;
+    border: none;
+    background-color: #00A79D;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.rumah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    /* gap: 10rem; */
+}
+
+.rumah .text-kiri{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: auto;
+    width: 28%;
+    /* background-color: red; */
+    gap: 2rem;
+}
+
+.rumah .text-kiri p.judul-rumah{
+    font-size: 44px;
+    /* font-weight: bold; */
+}
+
+.rumah img{
+    margin: auto;
+}
+
+/* visi dan misi */
+
+.visi-misi{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 10rem;
+    margin: 6rem 10rem;
+}
+
+/* .visi-misi .visi{
+    margin: 5rem;
+    text-align: justify;
+}
+
+.visi-misi .misi{
+    margin: 5rem;
+    text-align: justify;
+} */
+
+.visi-misi .visi-container, .misi-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Visi dan Misi */
+
+/* Mentor  */
+
+.mentor{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 4rem;
+    margin: 7rem 7rem;
+}
+
+.mentor .mentor-title{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 3em;
+    gap: 1rem;
+}
+
+.benefit-reqs .benefit-container{
+    text-align: left;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 14rem;
+}
+
+.req .req-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10rem;
+    gap: 1rem;
+    width: 18rem;
+    text-align: left;
+}
+
+/* End mentor */
+
+/* Mentee */
+
+.mentee{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin: 7rem 7rem;
+    text-align: justify;
+    /* background-color: aqua; */
+}
+
+.mentee .mentee-title{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 3em;
+    gap:1rem;
+}
+
+.benefit-reqs2 .benefit2 .benefit-class{
+    margin-top: 4.8rem;
+}
+
+.benefit-reqs2 .benefit2 .benefit2-container{
+    /* text-align: left; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 14rem;
+    /* background-color: blue; */
+}
+
+.req2 h4{
+    margin-top: 8rem;
+}
+
+.req2 .req2-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10rem;
+    gap: 1rem;
+    width: 18rem;
+    text-align: left;
+}
+
+/* End Mentee */
+
+/* Video Youtube */
+
+.video-yt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.video-yt iframe{
+    padding-bottom: 5rem;
+}
+
+/* End Video Youtube */
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: #E9E9E9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30rem;
+    display: flex;
+    padding: 6rem 0rem;
+}
+
+footer .contact-us img{
+    /* background-color: red; */
+    padding: 0px 12px;
+}
+
+.contact-us img.image{
+    /* background-color: #39ffef; */
+    margin-left: -14px;
+}
+
+footer .location{
+    /* font-weight: 600; */
+    /* font-size: 16px; */
+    line-height: 19px;
+    width: 450px;
+    height: 76px;
+}
+
+footer .Logo-White img{
+    width: 200px;
+    height: 200px;
+}
+
+footer .text-footer{
+    font-family: 'Inter', sans-serif;
+}
+
+/* End Footer */

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fontMedium;
+    src: url(../assets/Open-Sauce-Sans/OpenSauceSans-Regular.ttf);
+}
+
+body{
+    font-family: fontMedium;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0rem 5rem 0rem; */
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.brand img{
+    margin-right: 23rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+nav a:link { 
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:visited { 
+    text-decoration: none;
+    color: #000000   ;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+    color: #19A89D;
+}
+
+nav a:active { 
+    text-decoration: underline;
+    color: #19A89D;
+}
+
+/* End Navbar */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 350px;
+}
+
+.container .text{
+    /* background-color: red; */
+    margin-left: 6.5rem;
+}
+
+.container .text .text-logo{
+    padding: 1rem 0rem 2rem;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container .text p{
+    text-align: justify;
+}
+
+.container img{
+    width: 450px;
+    height: 300px;
+    padding-right: 10rem;
+}
+
+/* divisi */
+
+.divisi{
+    padding: 3%;
+
+}
+
+.divisi .text-divisi{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 30px;
+    /* background-color: red; */
+}
+
+.divisi .divisi-container1{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-evenly;
+    /* flex-direction: column;
+    gap: 2rem; */
+}
+
+.divisi .divisi-container2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.divisi .divisi-name{
+    display: flex;
+    height: 6.5vh;
+    gap: 1rem;
+}
+
+.divisi .divisi-name img{
+    margin-left: -0.2rem;
+}
+
+.divisi .divisi-name h3{
+    padding-top: 12px;
+    padding-left: 15px;
+    /* background-color: yellow; */
+}
+
+.divisi .divisi-name h3.text-human{
+    /* background-color: red; */
+    /* margin-left: 2rem; */
+    width: 10rem;
+}
+
+/* Form  */
+
+.container2{
+    padding: 40px 0px;
+    /* margin: 0px -32px 0px; */
+    /* background-color: blue; */
+}
+
+.container2 h1{
+    padding-left: 6.3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 13rem;
+    justify-content: space-around;
+    /* background-color: pink; */
+}
+
+.form .input_field{
+    /* background-color: red; */
+    padding: 15px 0px;
+
+}
+
+.form .input_field .input{
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    padding: 0px 13px;
+}
+
+/* .form .input-reason{
+
+} */
+
+.input-reason button{
+    width: 135px;
+    height: 43px;
+    border: none;
+    background-color: #00A79D;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
+
+.form .input-reason .alasan{
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    padding: 5px 4px;
+    font-size: large;
+    resize: none;
+}
+
+/* End Form */
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: #E9E9E9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30rem;
+    display: flex;
+    padding: 6rem 0rem;
+}
+
+footer .contact-us img{
+    /* background-color: red; */
+    padding: 0px 12px;
+}
+
+.contact-us img.image{
+    /* background-color: #39ffef; */
+    margin-left: -14px;
+}
+
+footer .location{
+    /* font-weight: 600; */
+    /* font-size: 16px; */
+    line-height: 19px;
+    width: 450px;
+    height: 76px;
+}
+
+footer .Logo-White img{
+    width: 200px;
+    height: 200px;
+}
+
+footer .text-footer{
+    font-family: 'Inter', sans-serif;
+}
+
+/* End Footer */
